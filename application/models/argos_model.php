@@ -12,9 +12,9 @@ class argos_model extends CI_Model
 	function getDeals()
 	{
 		// My unique identifiers that are required for amazon requests.
-		$AWSAccessKeyId = 'removed';
-		$AWSSecretKey = 'removed';
-		$AssociatesID = 'removed';
+		$AWSAccessKeyId = 'removed1';
+		$AWSSecretKey = 'removed2';
+		$AssociatesID = 'removed3';
 		
 		// Arguments for Amazon request.
 		$args = array("Operation"=>"ItemSearch","SearchIndex"=>"All","ResponseGroup"=>"Offers","MerchantId"=>"All",
